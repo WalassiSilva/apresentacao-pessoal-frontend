@@ -16,6 +16,7 @@ import {
   SiReactrouter,
   SiTailwindcss,
 } from "react-icons/si";
+import Reveal from "../Reveal";
 
 export default function Skills() {
   return (
@@ -23,8 +24,8 @@ export default function Skills() {
       className="max-w-[650px] mx-auto flex flex-col justify-center px-4 text-gray-200 pb-8 md:py-12"
       id="skills"
     >
-      {/* <Reveal> */}
-      <h2 className="text-3xl font-bold mb-4 text-center">Stack</h2>
+      <Reveal>
+      <h2 className="title">Stack</h2>
       <p className="text-center mb-8">
         Essas são as tecnologias que eu uso para desenvolver minhas aplicações
       </p>
@@ -53,7 +54,7 @@ export default function Skills() {
           </div>
         ))}
       </div>
-      {/* </Reveal> */}
+      </Reveal>
     </div>
   );
 }

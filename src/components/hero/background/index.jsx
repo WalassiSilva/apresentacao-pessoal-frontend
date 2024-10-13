@@ -15,5 +15,5 @@ export default function Background({ left, right, top, size = 500 }) {
     positionStyles.right = `${right}px`;
   }
 
-  return <div className="shiny-effect" style={positionStyles}></div>;
+  return <div className="shiny-effect overflow-hidden" style={positionStyles}></div>;
 }

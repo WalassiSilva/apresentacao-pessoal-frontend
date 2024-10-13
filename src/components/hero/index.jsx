@@ -88,8 +88,8 @@ export default function Hero() {
           transition={{ duration: 1 }}
         />
       </div>
-      <div className="absolute inset-0 block -z-10">
-        <Background left={0} top={0} size={1400} right={undefined} />
+      <div className="absolute inset-0 block -z-10 ">
+        <Background left={0} top={0} size={1400} right={0} />
       </div>
     </div>
   );

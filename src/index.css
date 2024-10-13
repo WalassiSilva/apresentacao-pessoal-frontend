@@ -13,3 +13,6 @@ body{
   z-index: 1;
   background: radial-gradient(circle, #03f89a22, transparent 70%);
 }
+.title{
+  @apply text-3xl font-bold text-gray-200 mb-8 text-center;
+}

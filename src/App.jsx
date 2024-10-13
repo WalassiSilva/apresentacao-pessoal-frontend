@@ -1,3 +1,4 @@
+import About from "./components/about";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
 import Projects from "./components/projects";
@@ -9,6 +10,7 @@ function App() {
       <main className="px-4">
         <Navbar />
         <Hero />
+        <About />
         <Skills />
         <Projects />
       </main>
