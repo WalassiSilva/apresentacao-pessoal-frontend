@@ -5,7 +5,7 @@ export const projects = [
   {
     id: 1,
     title: "Money Manger",
-    description: "A fullstack project built to showcase my skills and use as personal money manager.",
+    description: "Projeto fullstack para gerenciamento financeiro pessoal contendo gráficos, filtros por data e categorias.",
     img: images.moneyManagerImg,
     iconLists: [
       icons.react,
@@ -22,7 +22,7 @@ export const projects = [
   {
     id: 2,
     title: "Template site",
-    description: "A website template designed to cater to clients from various industries, thanks to its enchanting design with animations and responsiveness.",
+    description: "Template de site com animações, responsividade e alternador de temas.",
     img: images.templateSiteImg,
     iconLists: [icons.react, icons.tailwind, icons.typescript,],
     link: "https://template-paisagens.vercel.app/",
@@ -31,7 +31,7 @@ export const projects = [
   {
     id: 3,
     title: "Dev Burger",
-    description: "Dev burger is an online menu with a beautiful responsive design that integrates orders with WhatsApp.",
+    description: "Dev burger é um belo cardapio online que integra o pedido com WhatsApp.",
     img: images.devBurgerImg,
     iconLists: [icons.html, icons.tailwind, icons.js ],
     link: "https://devburger-cardapio.vercel.app/",
@@ -41,7 +41,7 @@ export const projects = [
   {
     id: 4,
     title: "Relap - Landing Page",
-    description: "A responsive landing page with simple and greate user experience.",
+    description: "Landing page com belo design e responsividade.",
     img: images.relapImg,
     iconLists: [icons.react, icons.tailwind, icons.typescript],
     link: "https://relap-ten.vercel.app/",
@@ -50,7 +50,7 @@ export const projects = [
   {
     id: 5,
     title: "Dashboard",
-    description: "Home page of a Dashboard created with dynamic data, great charts and beautiful design",
+    description: "Dashboard feito com gráficos dinámicos e design minimalista",
     img: images.dashboardImg,
     iconLists: [icons.react, icons.tailwind, icons.typescript,],
     link: "https://dashboard-nine-dun.vercel.app/",
@@ -59,7 +59,7 @@ export const projects = [
   {
     id: 6,
     title: "Node API",
-    description: "A node api it's an application for managing participants in in-person events using latest tech and documentation on Swagger.",
+    description: "API feita com Noje.Js para gerenciamento de eventos e participantes.",
     img: images.passInImg,
     iconLists: [icons.nodejs, icons.tailwind, icons.fastify, icons.prisma, icons.swagger],   
     link: "https://github.com/WalassiSilva/node-api-NLW",
