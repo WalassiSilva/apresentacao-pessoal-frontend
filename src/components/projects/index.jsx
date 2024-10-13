@@ -1,7 +1,6 @@
 import { AiOutlineGithub } from "react-icons/ai";
 import { projects } from "../../data.js";
 import NavLink from "../navbar/NavLink.jsx";
-// import icons from "../../assets/icons/index.jsx";
 
 export default function Projects() {
   return (
