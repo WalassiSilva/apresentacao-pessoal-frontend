@@ -50,7 +50,7 @@ export const projects = [
   {
     id: 5,
     title: "Dashboard",
-    description: "Dashboard feito com gráficos dinámicos e design minimalista",
+    description: "Página inicial de Dashboard feito com gráficos dinámicos e design minimalista.",
     img: images.dashboardImg,
     iconLists: [icons.react, icons.tailwind, icons.typescript,],
     link: "https://dashboard-nine-dun.vercel.app/",
