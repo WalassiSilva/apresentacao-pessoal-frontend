@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <div className="max-w-[1000px] mx-auto p-6 md:my-20" id="projects">
       <div>
-        <h2 className="title">Projetos</h2>
+        <h2 className="title gradient-text">Projetos</h2>
       </div>
       {projects.map((project, index) => (
         <Reveal key={index}>

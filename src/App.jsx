@@ -7,7 +7,7 @@ import Skills from "./components/skills";
 function App() {
   return (
     <>
-      <main className="px-4">
+      <main className="px-4 " style={{  }}>
         <Navbar />
         <Hero />
         <About />

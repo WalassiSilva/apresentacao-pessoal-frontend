@@ -25,7 +25,7 @@ export default function Skills() {
       id="skills"
     >
       <Reveal>
-      <h2 className="title">Stack</h2>
+      <h2 className="title gradient-text">Stack</h2>
       <p className="text-center mb-8">
         Essas são as tecnologias que eu uso para desenvolver minhas aplicações
       </p>

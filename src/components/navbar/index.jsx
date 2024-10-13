@@ -27,9 +27,9 @@ export default function Navbar() {
           y: "0%",
         },
       }}
-      className="fixed top-3 z-10 flex w-full justify-center "
+      className="fixed top-3 z-10 flex justify-center w-[100vw]"
     >
-      <nav className="flex justify-between gap-1 md:gap-3 rounded-3xl p-3 ">
+      <nav className=" flex justify-between gap-1 md:gap-3 rounded-3xl p-3 ">
         <Navlinks />
       </nav>
     </motion.div>

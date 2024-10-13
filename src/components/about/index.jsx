@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <div className="p-5 max-w-[600px] mx-auto flex flex-col justify-center ">
-      <h2 className="title">Sobre</h2>
+    <div className="p-5 max-w-[600px] mx-auto flex flex-col justify-center " id="about">
+      <h2 className="title gradient-text">Sobre</h2>
       <div className="text-gray-300 *:mb-3 ">
         <p>
           Sou Walassi, sou uma pessoa extremamente dedicada e comprometida com o

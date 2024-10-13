@@ -5,7 +5,6 @@ import { TypeAnimation } from "react-type-animation";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 
 import images from "../../assets/images";
-import Background from "./background";
 
 export default function Hero() {
   return (
@@ -38,7 +37,7 @@ export default function Hero() {
             className="text-gray-200 md:text-7xl text-5xl tracking-tight mb-4"
           >
             OLÁ! EU SOU <br />
-            <span className="text-purple-500">WALASSI SILVA</span>
+            <span className="gradient-text">WALASSI SILVA</span>
           </motion.p>
 
           <motion.p
@@ -89,7 +88,6 @@ export default function Hero() {
         />
       </div>
       <div className="absolute inset-0 block -z-10 ">
-        <Background left={0} top={0} size={1400} right={0} />
       </div>
     </div>
   );

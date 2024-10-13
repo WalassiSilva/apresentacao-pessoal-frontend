@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-  background-color: rgb(1, 6, 27);
+  background: radial-gradient(50% 50% at 50% 50%, #03339b 0%, #01061b 100%)
 
 }
 .shiny-effect {
@@ -12,7 +12,11 @@ body{
   pointer-events: none;
   z-index: 1;
   background: radial-gradient(circle, #03f89a22, transparent 70%);
+  overflow: hidden;
 }
 .title{
-  @apply text-3xl font-bold text-gray-200 mb-8 text-center;
+  @apply text-3xl font-bold mb-8 text-center;
+}
+.gradient-text {
+  @apply bg-transparent bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-blue-700 font-bold;
 }
