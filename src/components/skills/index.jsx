@@ -129,8 +129,8 @@ const skills = [
       {
         id: "github",
         name: "Github",
-        icon: <DiGithubBadge />,
-        color: "text-[#333]",
+        icon: <DiGithubBadge fill="#555" />,
+        color: "text-[#fff]",
       },
       {
         id: "node",
@@ -141,79 +141,3 @@ const skills = [
     ],
   },
 ];
-// const frontendSkills = [
-//   {
-//     id: "react",
-//     name: "React",
-//     icon: <DiReact />,
-//     color: "text-[#61dafb]",
-//   },
-//   {
-//     id: "react-router",
-//     name: "Router Dom",
-//     icon: <SiReactrouter />,
-//     color: "text-[#f44250]",
-//   },
-//   {
-//     id: "js",
-//     name: "JavaScript",
-//     icon: <DiJsBadge />,
-//     color: "text-[#f0db4f]",
-//   },
-//   {
-//     id: "ts",
-//     name: "TypeScript",
-//     icon: <BiLogoTypescript />,
-//     color: "text-[#3178c6]",
-//   },
-//   {
-//     id: "tailwind",
-//     name: "Tailwind",
-//     icon: <SiTailwindcss />,
-//     color: "text-[#38bdf8]",
-//   },
-
-//   { id: "sass", name: "Sass", icon: <DiSass />, color: "text-[#bf4080]" },
-//   { id: "css", name: "CSS3", icon: <DiCss3 />, color: "text-[#1572b6]" },
-//   { id: "html", name: "HTML5", icon: <DiHtml5 />, color: "text-[#e44d26]" },
-//   {
-//     id: "styled",
-//     name: "Styled Components",
-//     icon: <SiStyledcomponents />,
-//     color: "text-[#98613b]",
-//   },
-// ];
-
-// const backendSkills = [
-//   {
-//     id: "pg",
-//     name: "postgreSQL",
-//     icon: <BiLogoPostgresql />,
-//     color: "text-[#31648c]",
-//   },
-//   {
-//     id: "prisma",
-//     name: "Prisma ORM",
-//     icon: <SiPrisma />,
-//     color: "text-[#fff]",
-//   },
-//   {
-//     id: "express",
-//     name: "Express",
-//     icon: <SiExpress />,
-//     color: "text-[#fff]",
-//   },
-//   { id: "git", name: "Git", icon: <DiGit />, color: "text-[#e44d26]" },
-//   {
-//     id: "github",
-//     name: "Github",
-//     icon: <DiGithubBadge />,
-//     color: "text-[#333]",
-//   },
-//   {
-//     id: "node",
-//     name: "Node.js",
-//     icon: <DiNodejsSmall />,
-//     color: "text-[#83cd29]",
-//   },
-// ];

@@ -20,3 +20,6 @@ body{
 .gradient-text {
   @apply bg-transparent bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-blue-700 font-bold;
 }
+.span {
+  @apply text-purple-300;
+}
