@@ -27,7 +27,7 @@ export default function Hero() {
             ]}
             speed={50}
             repeat={Infinity}
-            className="font-bold font-mono text-gray-400 text-xl md:text-5xl mb-4"
+            className="font-bold font-mono text-purple-300 text-xl md:text-5xl mb-4"
           />
           <motion.p
             initial={{ opacity: 0 }}
